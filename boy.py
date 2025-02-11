@@ -3,9 +3,9 @@ from discord.ext import commands, tasks
 import requests
 import asyncio
 
-TOKEN = 'MTMxNzE3MjkzODI4OTU4MjE3MQ.GXyfYN.yGwbebW5JR7qv1sMC3O7JM_M2CkOxX81qmmsQg'
-YOUTUBE_API_KEY = 'AIzaSyCzd_JhlvocA-3umz0e-pNoCRdufkomkis'
-CHANNEL_ID = 'UCcirFVjM8w75TUis7yc9HCg'
+TOKEN = 'YOUR_DISCORD_BOT_TOKEN'
+YOUTUBE_API_KEY = 'YOUR_YOUTUBE_API_KEY'
+CHANNEL_ID = 'YOUR_YOUTUBE_CHANNEL_ID'
 LAST_VIDEO_ID_FILE = 'last_video_id.txt'
 
 intents = discord.Intents.default()
